@@ -44,7 +44,7 @@ Use the `install_tools.sh` script to automatically install the required tools.
 ### Steps:
 1. **Run the Script**:
    ```bash
-   chmod +x install_tools.sh
+   chmod 755 install_tools.sh
    ./install_tools.sh
    ```
 
@@ -71,6 +71,7 @@ The script will automatically do this but if you have any issues try doing this.
 Run the script with the target domain:
 
 ```bash
+chmod 755 hunter.sh
 ./hunter.sh <domain>
 ```
 

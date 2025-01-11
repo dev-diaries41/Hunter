@@ -1,4 +1,4 @@
-# Hunter: Bug Bounty Recon and Analysis Script
+# Hunter: automate bug bounty hunting
 
 ## Overview
 
@@ -100,12 +100,11 @@ After generating the final report, upload it to **ChatGPT** or **Hugging Face** 
 
 1. **Generate Final Report**: The report will be saved at `recon_<domain>/final_report.txt`.
 2. **Upload for Analysis**:
-   - **ChatGPT**: Upload the report and ask for help with identifying critical vulnerabilities, HTTP misconfigurations, or further recon techniques.
-   - **Hugging Face**: Upload the report to a relevant model for vulnerability analysis or suggestion generation.
-   
+   - Upload the report to ChatGPT or Huggingface and ask for help with identifying critical vulnerabilities, next steps to further prope, or further techniques to use.
+
 ### Example Prompt for ChatGPT:
 ```text
-"I've completed a bug bounty recon on the domain example.com. Here's the final report. Can you help identify critical vulnerabilities and suggest further recon techniques?"
+"I've completed a bug bounty recon on the domain example.com. Here's the final report. Can you help identify critical vulnerabilities and suggest the next steps to take to further probe.?"
 ```
 
 ---
